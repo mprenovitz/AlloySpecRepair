@@ -1,0 +1,37 @@
+{
+  "counterexamples": [
+    {
+      "cntr_cmd": "Check inv1_Repaired expect 0",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check inv1_Repaired expect 0 is valid"
+    },
+    {
+      "cntr_cmd": "Check inv2_Repaired expect 0",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check inv2_Repaired expect 0 is valid"
+    },
+    {
+      "cntr_cmd": "Check inv3_Repaired expect 0",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check inv3_Repaired expect 0 is valid"
+    },
+    {
+      "cntr_cmd": "Check inv4_Repaired expect 0",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check inv4_Repaired expect 0 is valid"
+    },
+    {
+      "cntr_cmd": "Check repair_assert_1",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check repair_assert_1 is valid"
+    }
+  ],
+  "instances": [
+    {
+      "instance_cmd": "Run repair_pred_1",
+      "instances": "Yes",
+      "instance_msg": "Instance found which means that the specification is consistent"
+    }
+  ],
+  "error": "Warning Line 31 column 61 in /Users/admin0513-27/Downloads/AlloySpecRepair-main-EMSE/the specification:\nThe join operation here always yields an empty set.\nLeft type = {this/Position}\nRight type = {this/Component->this/Product} Warning Line 31 column 41 in /Users/admin0513-27/Downloads/AlloySpecRepair-main-EMSE/the specification:\nSubset operator is redundant, because the right subexpression is always empty.\nLeft type = {this/Product}\nRight type = {none} Warning Line 56 column 59 in /Users/admin0513-27/Downloads/AlloySpecRepair-main-EMSE/the specification:\nThe join operation here always yields an empty set.\nLeft type = {this/Position}\nRight type = {this/Component->this/Product} Warning Line 56 column 39 in /Users/admin0513-27/Downloads/AlloySpecRepair-main-EMSE/the specification:\nSubset operator is redundant, because the right subexpression is always empty.\nLeft type = {this/Product}\nRight type = {none}"
+}

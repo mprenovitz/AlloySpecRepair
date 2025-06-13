@@ -1,0 +1,46 @@
+{
+  "counterexamples": [
+    {
+      "cntr_cmd": "Check undirectedRepaired",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check undirectedRepaired is valid"
+    },
+    {
+      "cntr_cmd": "Check orientedRepaired",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check orientedRepaired is valid"
+    },
+    {
+      "cntr_cmd": "Check acyclicRepaired",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check acyclicRepaired is valid"
+    },
+    {
+      "cntr_cmd": "Check completeRepaired",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check completeRepaired is valid"
+    },
+    {
+      "cntr_cmd": "Check noLoopsRepaired",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check noLoopsRepaired is valid"
+    },
+    {
+      "cntr_cmd": "Check weaklyConnectedRepaired",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check weaklyConnectedRepaired is valid"
+    },
+    {
+      "cntr_cmd": "Check stronglyConnectedRepaired",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check stronglyConnectedRepaired is valid"
+    },
+    {
+      "cntr_cmd": "Check transitiveRepaired",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check transitiveRepaired is valid"
+    }
+  ],
+  "instances": [],
+  "error": ""
+}

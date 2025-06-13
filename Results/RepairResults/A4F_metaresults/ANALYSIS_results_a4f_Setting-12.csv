@@ -1,0 +1,2 @@
+Setting,Number of fixed entries,Number of entries that reached max iteration,Average number of iterations for fixed entries,Min number of iterations to fix,Q1 (25th percentile),Median number of iterations to fix,Q3 (75th percentile),Max number of iterations to fix,Number of entries where fst_iter_repeated_init_spec is True,Number of fixed entries with zero iterations
+Setting-12,280,1655,3.4785714285714286,1,2.0,3.0,5.0,6,19,24

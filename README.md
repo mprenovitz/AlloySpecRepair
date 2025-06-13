@@ -79,6 +79,18 @@ Add the flags:
 - `-mo`: pre-trained LLM `gpt-4-32-k|gpt-4-Turbo|gpt-3.5-Turbo|gpt-4o`
 - `-s`: indicate the model is `OpenAI` or `Azure`
 
+## Benchmarks
+In this work we used two benchmark datasets to perform the repair process. These benchmarks are used by traditional Alloy repair tools, thus facilitating the comparison with these tools. 
+
+```
+datasets
+├── a4f
+├── areapir_bug_type.xlsx
+├── arepair
+└── Readme.md
+```
+
+
 ## Output 
 - A folder `results_<datasetName_SettingNumber>` will be created in the root directory. This folder will mantain a CSV file called `summary.csv`, which records the status of each Alloy file in the dataset. 
 
@@ -97,3 +109,20 @@ Following is a description of the columns in the CSV file:
 - `fst_iter_repeated_init_spec`: A boolean-like value (`True` or `False` as strings in the CSV) indicating whether the buggy specifications were repeated in the first iteration. This can signal whether adjustments to the initial specifications were identified as necessary right from the beginning.
 
 - `Error_msg`: Intended to contain error messages or codes related to the task or process. In the provided dataset, this column does not have any entries, suggesting that specific error messages were not recorded or applicable.
+
+The repair results for our experiments based on A4F and ARepair using various LLMs are in the directory `Repair/RepairResults`
+
+
+
+# Paper Citation
+
+You can find the paper that describes the details [HERE](https://arxiv.org/abs/2405.20455)
+
+```
+@article{alhanahnah2024empirical,
+  title={An empirical evaluation of pre-trained large language models for repairing declarative formal specifications},
+  author={Alhanahnah, Mohannad and Hasan, Md Rashedul and Xu, Lisong and Bagheri, Hamid},
+  journal={arXiv preprint arXiv:2404.11050},
+  year={2024}
+}
+```

@@ -1,0 +1,17 @@
+{
+  "counterexamples": [
+    {
+      "cntr_cmd": "Check NoQuantumObjects for 8 State expect 0",
+      "counterexample": "Yes",
+      "counterexample_msg": "Counterexample found which means that Check NoQuantumObjects for 8 State expect 0 assertion is invalid\nthis/Farmer={Farmer$0}\nthis/Fox={Fox$0}\nthis/Chicken={Chicken$0}\nthis/Grain={Grain$0}\nthis/Object={Farmer$0, Fox$0, Chicken$0, Grain$0}\nthis/Object.eats={Fox$0->Chicken$0, Chicken$0->Grain$0}\nthis/State={State$0, State$1, State$2, State$3, State$4, State$5, State$6, State$7}\nthis/State.near={State$0->Farmer$0, State$0->Fox$0, State$0->Chicken$0, State$0->Grain$0, State$1->Chicken$0, State$1->Grain$0, State$2->Farmer$0, State$2->Chicken$0, State$2->Grain$0, State$3->Chicken$0, State$4->Farmer$0, State$4->Fox$0, State$4->Chicken$0, State$4->Grain$0, State$5->Fox$0, State$5->Chicken$0, State$6->Chicken$0, State$7->Chicken$0}\nthis/State.far={State$1->Farmer$0, State$1->Fox$0, State$2->Fox$0, State$3->Farmer$0, State$3->Fox$0, State$3->Chicken$0, State$3->Grain$0, State$4->Fox$0, State$4->Grain$0, State$5->Fox$0, State$5->Chicken$0, State$5->Grain$0, State$6->Fox$0, State$6->Grain$0, State$7->Fox$0}\nord/Ord={ord/Ord$0}\nord/Ord.First={ord/Ord$0->State$0}\nord/Ord.Next={ord/Ord$0->State$0->State$1, ord/Ord$0->State$1->State$2, ord/Ord$0->State$2->State$3, ord/Ord$0->State$3->State$4, ord/Ord$0->State$4->State$5, ord/Ord$0->State$5->State$6, ord/Ord$0->State$6->State$7}\n"
+    }
+  ],
+  "instances": [
+    {
+      "instance_cmd": "Run solvePuzzle for 8 State expect 1",
+      "instances": "Yes",
+      "instance_msg": "Instance found which means that the specification is consistent"
+    }
+  ],
+  "error": ""
+}
