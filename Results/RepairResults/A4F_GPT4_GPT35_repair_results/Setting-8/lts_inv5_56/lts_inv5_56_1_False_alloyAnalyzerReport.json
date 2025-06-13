@@ -1,0 +1,47 @@
+{
+  "counterexamples": [
+    {
+      "cntr_cmd": "Check inv1_Repaired expect 0",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check inv1_Repaired expect 0 is valid"
+    },
+    {
+      "cntr_cmd": "Check inv2_Repaired expect 0",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check inv2_Repaired expect 0 is valid"
+    },
+    {
+      "cntr_cmd": "Check inv3_Repaired expect 0",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check inv3_Repaired expect 0 is valid"
+    },
+    {
+      "cntr_cmd": "Check inv4_Repaired expect 0",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check inv4_Repaired expect 0 is valid"
+    },
+    {
+      "cntr_cmd": "Check inv5_Repaired expect 0",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check inv5_Repaired expect 0 is valid"
+    },
+    {
+      "cntr_cmd": "Check inv7_Repaired expect 0",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check inv7_Repaired expect 0 is valid"
+    },
+    {
+      "cntr_cmd": "Check repair_assert_1",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check repair_assert_1 is valid"
+    }
+  ],
+  "instances": [
+    {
+      "instance_cmd": "Run inv5",
+      "instances": "Yes",
+      "instance_msg": "Instance found which means that the specification is consistent"
+    }
+  ],
+  "error": "Warning Line 41 column 32 in /Users/admin0513-27/Downloads/AlloySpecRepair-main-EMSE/the specification:\nThe join operation here always yields an empty set.\nLeft type = {this/Event->this/State}\nRight type = {this/Event} Warning Line 41 column 49 in /Users/admin0513-27/Downloads/AlloySpecRepair-main-EMSE/the specification:\nThe join operation here always yields an empty set.\nLeft type = {this/Event->this/State}\nRight type = {this/Event} Warning Line 88 column 32 in /Users/admin0513-27/Downloads/AlloySpecRepair-main-EMSE/the specification:\nThe join operation here always yields an empty set.\nLeft type = {this/Event->this/State}\nRight type = {this/Event} Warning Line 88 column 49 in /Users/admin0513-27/Downloads/AlloySpecRepair-main-EMSE/the specification:\nThe join operation here always yields an empty set.\nLeft type = {this/Event->this/State}\nRight type = {this/Event}"
+}
