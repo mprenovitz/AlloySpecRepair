@@ -5,12 +5,6 @@
 #### A4F : 1936 spec (single line bugs)
 #### Arepair 38 spec (single and multi line bugs)
 
--------------
-
-#### The correct_spec folder contains the specifications along with the proposed fix suggested by 
-
-#### https://github.com/guolong-zheng/atmprep/tree/master/benchmark 
-
 
 -------------
 
